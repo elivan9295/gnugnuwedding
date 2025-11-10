@@ -1,12 +1,12 @@
 
 import React, { useContext } from 'react';
-import Header from './components/Header';
-import PhotoGallery from './components/PhotoGallery';
-import Footer from './components/Footer';
-import { CalendarIcon, LocationIcon, ClockIcon, TrulloIcon, PlaneIcon, BedIcon, SparklesIcon, FloralDivider, DressCodeIcon, GiftIcon } from './components/icons';
-import AccordionItem from './components/AccordionItem';
-import { LanguageContext } from './contexts/LanguageContext';
-import { translations } from './translations';
+import Header from './components/Header.tsx';
+import PhotoGallery from './components/PhotoGallery.tsx';
+import Footer from './components/Footer.tsx';
+import { CalendarIcon, LocationIcon, ClockIcon, TrulloIcon, PlaneIcon, BedIcon, SparklesIcon, FloralDivider, DressCodeIcon, GiftIcon } from './components/icons.tsx';
+import AccordionItem from './components/AccordionItem.tsx';
+import { LanguageContext } from './contexts/LanguageContext.tsx';
+import { translations } from './translations.ts';
 
 const App: React.FC = () => {
   const { language } = useContext(LanguageContext);
